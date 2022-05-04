@@ -19,5 +19,5 @@ from number import is_even
 
 def test_is_even():
     """ Test si el número 4 es determinado par"""
-    number = 4
+    number = 5
     assert is_even(number) == True, '4 debería haber sido determinado par'
